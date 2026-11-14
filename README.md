@@ -46,7 +46,7 @@ seven times a like is not worth seven likes.
 - These are the defaults mirrored into the open-source code. X's README says its aim is for experiments running
   at a notable share of traffic, such as 10% or more, to be visible in the repository, so an account inside a
   smaller test can be ranked with other values.
-- The file has 60 commits but 56 distinct sync times: the first four commits share the sync of 12 August, and two
+- The file has 61 commits but 57 distinct sync times: the first four commits share the sync of 12 August, and two
   share the sync of 28 October.
 
 ## Explained
