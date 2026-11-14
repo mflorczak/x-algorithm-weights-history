@@ -1,0 +1,12 @@
+{
+  "title": "X For You ranking weights: every change since August 2026",
+  "upload_type": "dataset",
+  "description": "<p>Every change to the weights in the weights block (favorite_weight to not_dwelled_weight) of X's open-source For You ranker (home-mixer/params/param.rs in github.com/xai-org/x-algorithm), read from all 60 commits of that file between 13 August and 13 November 2026: 31 weights, 53 rows. One CSV row per change: sync time from the file's first line, commit, weight, previous value, new value. The first 28 rows are the values as first published. Weights multiply predicted probabilities, not counts. Explained at https://bangerkit.io/guides/x-algorithm-2026.</p>",
+  "creators": [{ "name": "Bangerkit" }],
+  "license": "cc-by-4.0",
+  "keywords": ["X", "Twitter", "recommendation algorithm", "ranking weights", "For You feed"],
+  "related_identifiers": [
+    { "identifier": "https://github.com/xai-org/x-algorithm", "relation": "isDerivedFrom", "scheme": "url" },
+    { "identifier": "https://bangerkit.io/guides/x-algorithm-2026", "relation": "isDocumentedBy", "scheme": "url" }
+  ]
+}
