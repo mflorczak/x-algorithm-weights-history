@@ -6,7 +6,7 @@ X publishes the default weights of its For You ranker in
 these defaults "to be the primary production values", and the first line of the file carries the time of the sync
 it mirrors. X commits a new version every few days.
 
-We read all 60 commits of that file from 13 August to 13 November 2026 and recorded every change to the weights in
+We read all 61 commits of that file from 13 August to 14 November 2026 and recorded every change to the weights in
 its weights block, the parameters listed between `favorite_weight` and `not_dwelled_weight`: the 28 published on
 13 August and the 3 added later (`react_with_video_weight`, `post_video_weight`, `grok_analyze_weight`), 53 rows
 in all. Parameters outside that block are not included, even where "weight" is in their name: the out-of-network
